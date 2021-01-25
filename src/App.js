@@ -13,20 +13,65 @@ const App = () => {
       <div className="row">
         <div className="navbar navbar-light bg-light">
           <span className="navbar-brand ms-5" >Personal List</span>
+          <a class="navbar-brand" href="#">
+            <img src="" alt="" width="30" height="30" />
+          </a>
         </div>
-        <div className="col-12">
+
+        <div className="d-flex justify-content-around mt-5 col-12">
 
           <div className="card">
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
-              <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" className="card-link">Card link</a>
-              <a href="#" className="card-link">Another link</a>
+              <h5 className="card-title">Tarea</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Prioridad</h6>
+              <p className="card-text">Descripcion de la Tarea</p>
+              <a href="#" className="card-link">Editar</a>
+              <a href="#" className="card-link">Completado</a>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Tarea</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Prioridad</h6>
+              <p className="card-text">Descripcion de la Tarea</p>
+              <a href="#" className="card-link">Editar</a>
+              <a href="#" className="card-link">Completado</a>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Tarea</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Prioridad</h6>
+              <p className="card-text">Descripcion de la Tarea</p>
+              <a href="#" className="card-link">Editar</a>
+              <a href="#" className="card-link">Completado</a>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Tarea</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Prioridad</h6>
+              <p className="card-text">Descripcion de la Tarea</p>
+              <a href="#" className="card-link">Editar</a>
+              <a href="#" className="card-link">Completado</a>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="card-body">
+              <h5 className="card-title">Tarea</h5>
+              <h6 className="card-subtitle mb-2 text-muted">Prioridad</h6>
+              <p className="card-text">Descripcion de la Tarea</p>
+              <a href="#" className="card-link">Editar</a>
+              <a href="#" className="card-link">Completado</a>
             </div>
           </div>
 
         </div>
+
       </div>
     </ContainerApp>
 
